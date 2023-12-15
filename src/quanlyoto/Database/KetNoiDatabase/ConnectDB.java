@@ -16,7 +16,7 @@ import java.sql.SQLException;
 public class ConnectDB {
     
         String user="sa";
-        String pass="Nothing123$";
+        String pass="mypass";
         String server="localhost";
         String db="JAVAOOP";
         SQLServerDataSource ds = new SQLServerDataSource();
