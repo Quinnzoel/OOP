@@ -6,6 +6,7 @@
 package quanlyoto;
 
 import java.sql.SQLException;
+import quanlyoto.DangNhap.FormDangNhap;
 import quanlyoto.Database.KetNoiDatabase.ConnectDB;
 
 /**
@@ -21,6 +22,8 @@ public class QuanLyOTo {
         // TODO code application logic here
 //        Connection conn = new Connection();
 //        System.out.println(conn.Conn());
+FormDangNhap fdn = new FormDangNhap();
+fdn.setVisible(true);
     }
     
 }
